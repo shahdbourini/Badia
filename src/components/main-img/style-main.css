@@ -1,0 +1,153 @@
+.left p{
+    position: relative;
+    top: 60px;
+    font-size: 54px;
+    font-weight: 500;
+}
+
+.left .ant-btn{
+    background: #94c529;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    width: 119px;
+    margin-top: 44px;
+    margin-right: 2%;
+}
+
+.left .ant-btn.scd-btn{
+    color: #94c529;
+    background: white;
+    border: 1px solid #94c529;
+}
+
+.main{
+    background-image: url('../../images/circle.svg');
+    background-size: cover;
+}
+.main img{
+    width: 76%;
+    padding-bottom: 35px;
+    padding-top: 41px;
+    margin-left: 11%;
+}
+
+.name p{
+    text-align: center;
+    margin-top: 17px;
+    font-size: 31px;
+    font-weight: 500;
+}
+
+.name span{
+    float: right;
+    margin-right: 24%;
+    font-size: 18px;
+    line-height: 0px;
+    position: relative;
+    top: -11px;
+}
+
+.main-arrow{
+    background-color: #94c529;
+    position: relative;
+    top: 49px;
+    width: 43px;
+    height: 123px;
+    border-top-left-radius: 44px;
+    border-top-right-radius: 44px;
+}
+
+.main-arrow img{
+    position: relative;
+    top: 60px;
+    width: 44%;
+    align-items: center;
+    left: 22%;
+}
+
+.about{
+    position: relative;
+    left: 85px;
+    top: -20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.under-line{
+    content: ' ';
+    display: block;
+    width: 109px;
+    height: 0;
+    border-width: 0 0 2px;
+    border-style: solid;
+    position: relative;
+    bottom: 0;
+    top: -30px;
+    color: #94c529;
+    float: left;
+    left: 87px;
+
+}
+.col-img{
+    background-image: url("../../images/background.svg");
+    background-repeat: no-repeat;
+    background-position-x: 280px;
+}
+/************************** media query *********************/
+
+@media (min-width: 1200px){
+.main {
+    /* height: 352px; */
+}}
+
+@media (max-width: 594px){
+    .left p {
+        font-size: 21px;
+    }
+
+    .name p {
+        font-size: 21px;
+    }
+
+    .left .ant-btn.scd-btn {
+        margin-top: 7px;
+    }
+
+    
+.main img {
+    width: 64%;
+    padding-bottom: 35px;
+    padding-top: 7px;
+    margin-left: 19%;
+}
+}
+
+@media (max-width: 744px){
+    .left p {
+        font-size: 30px;
+    }
+
+    .left .ant-btn.scd-btn {
+        margin-top: 8px;
+    }
+
+    .name p {
+        font-size: 19px;
+    }
+
+    .about {
+        position: relative;
+        left: 56px;
+        top: 31px;
+        font-size: 17px;
+        font-weight: 500;
+    }
+    
+    .under-line {
+        width: 104px;
+        top: 15px;
+        float: left;
+        left: 58px;
+    }
+}

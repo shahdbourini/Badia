@@ -1,0 +1,16 @@
+.aboutPar p{
+    font-size: 16px;
+}
+
+.line-about2{
+    content: ' ';
+    display: block;
+    width: 256px;
+    height: 0;
+    border-width: 0 0 2px;
+    border-style: solid;
+    position: relative;
+    bottom: 0;
+    color: #94c529;
+    top: -13px;
+}

@@ -1,0 +1,54 @@
+.counters img{
+    width: 82px;
+    position: relative;
+    left: 54px;
+    top: -33px;
+}
+
+.counters{
+    width: 190px;
+    height: 165px;
+    border-width: 2px 2px 2px;
+    border-style: solid;
+    color: #f4f4f4;
+    border-radius: 22px;
+    box-shadow: 0 3px 6px #ddd9d9;
+}
+
+.counters h1{
+    position: relative;
+    text-align: center;
+    color: #94c529;
+    font-size: 61px;
+    top: -16px;
+}
+
+.title-count{
+    padding-top: 22px;
+
+}
+
+.title-count h4{
+    position: relative;
+    left: 18%;
+}
+
+.count-line{
+    content: ' ';
+    display: block;
+    width: 91px;
+    height: 0;
+    border-width: 0 0 2px;
+    border-style: solid;
+    position: relative;
+    bottom: 0;
+    color: #94c529;
+    left: 47px;
+    top: -8px;
+
+}
+
+.line3{
+    width: 59px;
+
+}

@@ -1,0 +1,43 @@
+.product{
+    margin-top: 0px;
+    background-image: url('../../images/trans.svg');
+    background-size: contain;
+    height: 300px;
+    /* padding-bottom: 50px; */
+    background-repeat: no-repeat;
+}
+
+.product img{
+    width: 39%;
+    position: relative;
+    left: 80px;
+    top: 69px;
+}
+
+.product-par{
+    padding-bottom: 29px;
+}
+
+.product-par p{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.line-product{
+    content: ' ';
+    display: block;
+    width: 128px;
+    height: 0;
+    border-width: 0 0 2px;
+    border-style: solid;
+    position: relative;
+    bottom: 0;
+    color: #94c529;
+    top: -1px;
+}
+
+.span-product{
+    color: rgb(148, 197, 41);
+    font-size: 19px;
+    font-weight: 500;
+}

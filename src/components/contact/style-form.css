@@ -1,0 +1,60 @@
+
+.ant-cascader-input.ant-input {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.ant-cascader-menu:only-child {
+    border-radius: 2px;
+    height: auto;}
+
+    .ant-cascader-menus {
+        width: 39%;
+    }
+
+    .anticon svg {
+        color: #94c529;}
+
+
+.ant-input {
+ border: 1px solid #94c529;
+ background: black;
+    color: white;
+}
+
+.ant-input:focus, .ant-input-focused {
+    border-color: #94c529;
+}
+.ant-input:hover {
+    border-color: #94c529;
+}
+
+
+.ant-cascader-picker:focus .ant-cascader-input {
+    border-color: #94c529
+
+}
+
+.ant-form-vertical .ant-form-item-label > label {
+    color: white;
+}
+
+.contact{
+    margin-top: 91px;
+}
+
+.contact h1{
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+    color: white;
+}
+
+.img-contact{
+    width: 79%;
+    margin-top: 40px;
+}
+
+.back-color{
+    background-color: black;
+    margin-bottom: 173px;
+}

@@ -1,0 +1,61 @@
+.wwa{
+    position: relative;
+    top: 22%;
+}
+
+.wwa p{
+    width: 500px;
+    font-size: 1.1rem;
+}
+
+.back1{
+
+        background-image: url("../../images/green-line.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: 12%;
+        margin-top: 79px;
+}
+/* .green{
+    width: 54px;
+    margin-left: 140px;
+} */
+.about-images{
+position: relative;
+top:50px;
+}
+
+.about1{
+    width: 65%;
+    display: block;
+}
+
+.lineA{
+    position: relative;
+    left: 32%;
+    height: 48px;
+    top: -14px;
+    width: 6px;
+}
+
+
+.about2{
+    width: 32%;
+    position: relative;
+    left: 17%;
+    top: 16px;
+}
+
+.line2{
+    display: block;
+    top: 16px;
+    position: relative;
+    height: 25px;
+}
+
+.about3{
+    width: 29%;
+    position: relative;
+    left: 19%;
+    top: 16px;
+}

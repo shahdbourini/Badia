@@ -1,0 +1,11 @@
+
+.title-page-about {
+    top: 85px;
+    position: relative;
+    padding-bottom: 43px;
+}
+
+.title-page-about h1{
+    margin-left: 9%;
+    color: #94c529;  
+}
