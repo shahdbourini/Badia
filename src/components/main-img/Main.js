@@ -36,7 +36,7 @@ function Main(props) {
           xs={{ span: 10, offset: 1 }}
           sm={{ span: 11, offset: 1 }}
           md={{ span: 9, offset: 0 }}
-          lg={{ span: 7, offset: 0 }}
+          lg={{ span: 7, offset: 1 }}
         >
           <div className="main">
             <img src={lamp} />
