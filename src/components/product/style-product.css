@@ -41,3 +41,11 @@
     font-size: 19px;
     font-weight: 500;
 }
+
+.st-p{
+    background-image: url("../../images/background.svg");
+    background-position-x: 656px;
+    background-position-y: 136px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

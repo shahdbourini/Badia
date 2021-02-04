@@ -1,11 +1,12 @@
 import p1 from '../../images/p1.png';
 import p2 from '../../images/p2.png';
 import visue from '../../images/visue.png';
+import './style-imgs.css';
 import { Row, Col } from 'antd';
 
 function Imgs(props) {
   return (
-    <>
+    <div className="st-img">
       <Row style={{ paddingTop: `166px`, marginBottom: `170px` }}>
         <Col
           xs={{ span: 8, offset: 0 }}
@@ -67,7 +68,7 @@ function Imgs(props) {
           </div>
         </Col>
       </Row>
-    </>
+    </div>
   );
 }
 

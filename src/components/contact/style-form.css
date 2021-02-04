@@ -58,3 +58,13 @@
     background-color: black;
     margin-bottom: 173px;
 }
+
+/****************media query ******************/
+@media (max-width: 767px ) and (min-width:425px){
+
+    .contact h1 {
+        font-size: 1.4rem;
+        letter-spacing: 2px;
+        color: white;
+    }
+}

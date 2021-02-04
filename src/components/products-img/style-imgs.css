@@ -1,0 +1,9 @@
+.st-img{
+    height: 422px;
+    margin-bottom: 98px;
+    background-image: url("../../images/background.svg");
+    background-position-x: 605px;
+    background-position-y: 138px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

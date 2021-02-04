@@ -6,6 +6,7 @@ function Navbar(props) {
   return (
     <>
       <nav
+        id="nav"
         class="navbar navbar-expand-lg navbar-light"
         style={{ paddingTop: `24px`, backgroundColor: `${props.back}` }}
       >

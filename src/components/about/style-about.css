@@ -59,3 +59,11 @@ top:50px;
     left: 19%;
     top: 16px;
 }
+
+.down-arrow img{
+    position: relative;
+    align-items: center;
+    left: 150px;
+    width: 28px;
+    bottom: 14px;
+}

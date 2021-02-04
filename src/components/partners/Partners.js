@@ -6,15 +6,21 @@ import part3 from '../../images/part3.png';
 import part4 from '../../images/part4.png';
 import part5 from '../../images/part5.png';
 import part6 from '../../images/part6.png';
+import arrow from '../../images/main-arrow.svg';
+import { Link } from 'react-scroll';
 
 function Partners(props) {
   return (
-    <div className="back">
+    <div className="back " id="partners">
       <div className="title-part">
         <h2>Ecosystem PARTNERS</h2>
         <div className="part-line"></div>
       </div>
-      <Row gutter={[0, 64]} style={{ paddingLeft: `20%` }} className="part-img">
+      <Row
+        gutter={[0, 64]}
+        style={{ paddingLeft: `20%`, height: `446px` }}
+        className="part-img st3"
+      >
         <Col
           xs={{ span: 8, offset: 0 }}
           sm={{ span: 8, offset: 0 }}
@@ -69,6 +75,11 @@ function Partners(props) {
           <img src={part6} alt="img" />
         </Col>
       </Row>
+      <div className="down-arrow arr4" style={{ cursor: `pointer` }}>
+        <Link to="counters" spy={true} smooth={true}>
+          <img src={arrow} />
+        </Link>
+      </div>
     </div>
   );
 }

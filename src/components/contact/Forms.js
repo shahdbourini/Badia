@@ -22,17 +22,17 @@ function Forms(props) {
     <div className="back-color">
       <Row>
         <Col
-          xs={{ span: 8, offset: 0 }}
-          sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
-          lg={{ span: 11, offset: 1 }}
+          xs={{ span: 22, offset: 1 }}
+          sm={{ span: 11, offset: 1 }}
+          md={{ span: 11, offset: 1 }}
+          lg={{ span: 11, offset: 2 }}
         >
           <Form form={form} layout="vertical" style={{ width: `100%` }}>
             <Row style={{ marginTop: '83px', width: `100%` }}>
               <Col
-                xs={{ span: 8, offset: 0 }}
-                sm={{ span: 8, offset: 0 }}
-                md={{ span: 10, offset: 0 }}
+                xs={{ span: 11, offset: 1 }}
+                sm={{ span: 10, offset: 1 }}
+                md={{ span: 10, offset: 2 }}
                 lg={{ span: 10, offset: 2 }}
               >
                 <Form.Item label="First name">
@@ -42,8 +42,8 @@ function Forms(props) {
                 </Form.Item>
               </Col>
               <Col
-                xs={{ span: 8, offset: 0 }}
-                sm={{ span: 8, offset: 0 }}
+                xs={{ span: 11, offset: 0 }}
+                sm={{ span: 10, offset: 0 }}
                 md={{ span: 10, offset: 0 }}
                 lg={{ span: 10, offset: 0 }}
                 style={{
@@ -64,9 +64,9 @@ function Forms(props) {
 
             <Row style={{ width: `100%` }}>
               <Col
-                xs={{ span: 8, offset: 0 }}
-                sm={{ span: 8, offset: 0 }}
-                md={{ span: 10, offset: 0 }}
+                xs={{ span: 24, offset: 1 }}
+                sm={{ span: 20, offset: 1 }}
+                md={{ span: 22, offset: 2 }}
                 lg={{ span: 22, offset: 2 }}
               >
                 <Form.Item
@@ -95,9 +95,9 @@ function Forms(props) {
             </Row>
             <Row style={{ width: `100%` }}>
               <Col
-                xs={{ span: 8, offset: 0 }}
-                sm={{ span: 8, offset: 0 }}
-                md={{ span: 10, offset: 0 }}
+                xs={{ span: 24, offset: 1 }}
+                sm={{ span: 20, offset: 1 }}
+                md={{ span: 22, offset: 2 }}
                 lg={{ span: 22, offset: 2 }}
               >
                 <Form.Item
@@ -124,9 +124,9 @@ function Forms(props) {
 
             <Row style={{ width: `100%` }}>
               <Col
-                xs={{ span: 8, offset: 0 }}
-                sm={{ span: 8, offset: 0 }}
-                md={{ span: 10, offset: 0 }}
+                xs={{ span: 24, offset: 1 }}
+                sm={{ span: 20, offset: 1 }}
+                md={{ span: 22, offset: 2 }}
                 lg={{ span: 22, offset: 2 }}
               >
                 <Form.Item name="Message" label="Message">
@@ -142,9 +142,9 @@ function Forms(props) {
 
             <Row style={{ width: `100%` }}>
               <Col
-                xs={{ span: 8, offset: 0 }}
-                sm={{ span: 8, offset: 0 }}
-                md={{ span: 10, offset: 0 }}
+                xs={{ span: 23, offset: 1 }}
+                sm={{ span: 20, offset: 1 }}
+                md={{ span: 22, offset: 2 }}
                 lg={{ span: 22, offset: 2 }}
               >
                 <Form.Item>
@@ -167,9 +167,9 @@ function Forms(props) {
         </Col>
 
         <Col
-          xs={{ span: 8, offset: 0 }}
-          sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
+          xs={{ span: 20, offset: 2 }}
+          sm={{ span: 10, offset: 1 }}
+          md={{ span: 10, offset: 1 }}
           lg={{ span: 10, offset: 1 }}
         >
           <div className="contact">

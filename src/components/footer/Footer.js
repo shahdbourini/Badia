@@ -7,10 +7,10 @@ function Footer(props) {
     <>
       <Row style={{ paddingTop: `75px` }} className="footer">
         <Col
-          xs={{ span: 8, offset: 0 }}
-          sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
-          lg={{ span: 5, offset: 9 }}
+          xs={{ span: 20, offset: 4 }}
+          sm={{ span: 10, offset: 7 }}
+          md={{ span: 8, offset: 9 }}
+          lg={{ span: 8, offset: 9 }}
         >
           <div className="icons">
             <i class="fa fa-facebook" aria-hidden="true"></i>

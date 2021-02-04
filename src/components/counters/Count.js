@@ -4,10 +4,12 @@ import CountUp from 'react-countup';
 import count1 from '../../images/count1.svg';
 import count2 from '../../images/count2.svg';
 import count3 from '../../images/count3.svg';
+import top from '../../images/top-arrow.svg';
+import { Link } from 'react-scroll';
 
 function Count(props) {
   return (
-    <div className="back" style={{ paddingButton: `166px` }}>
+    <div id="counters" className="back cs">
       <Row style={{ paddingTop: `166px` }}>
         <Col
           xs={{ span: 8, offset: 0 }}
@@ -66,6 +68,11 @@ function Count(props) {
           </div>
         </Col>
       </Row>
+      <div className="down-arrow arr5" style={{ cursor: `pointer` }}>
+        <Link to="nav" spy={true} smooth={true}>
+          <img src={top} />
+        </Link>
+      </div>
     </div>
   );
 }

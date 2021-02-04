@@ -26,7 +26,7 @@
     background-size: cover;
 }
 .main img{
-    width: 76%;
+    width: 80%;
     padding-bottom: 35px;
     padding-top: 41px;
     margin-left: 11%;
@@ -91,8 +91,10 @@
 }
 .col-img{
     background-image: url("../../images/background.svg");
+    background-position-x: 629px;
+    background-position-y: 100px;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position-x: 280px;
 }
 /************************** media query *********************/
 

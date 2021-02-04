@@ -4,20 +4,14 @@ import about2 from '../../images/about2.svg';
 import about3 from '../../images/about3.svg';
 import lineA from '../../images/about-line.svg';
 import green from '../../images/green-line.svg';
+import arrow from '../../images/main-arrow.svg';
+import { Link } from 'react-scroll';
 import './style-about.css';
 
 function About(props) {
   return (
-    <div className="back1">
+    <div className="back1" id="about">
       <Row style={{ marginTop: `20px`, height: `509px` }}>
-        {/* <Col
-          xs={{ span: 3, offset: 0 }}
-          sm={{ span: 3, offset: 0 }}
-          md={{ span: 3, offset: 0 }}
-          lg={{ span: 3, offset: 0 }}
-        >
-          <img src={green} className="green" />
-        </Col> */}
         <Col
           xs={{ span: 8, offset: 6 }}
           sm={{ span: 10, offset: 4 }}
@@ -61,6 +55,11 @@ function About(props) {
           </div>
         </Col>
       </Row>
+      <div className="down-arrow" style={{ cursor: `pointer` }}>
+        <Link to="slide" spy={true} smooth={true}>
+          <img src={arrow} />
+        </Link>
+      </div>
     </div>
   );
 }

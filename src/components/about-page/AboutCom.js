@@ -6,9 +6,9 @@ function AboutCom(props) {
     <>
       <Row style={{ paddingTop: `80px` }}>
         <Col
-          xs={{ span: 8, offset: 0 }}
-          sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
+          xs={{ span: 25, offset: 2 }}
+          sm={{ span: 18, offset: 2 }}
+          md={{ span: 18, offset: 2 }}
           lg={{ span: 18, offset: 2 }}
         >
           <div className="aboutPar">

@@ -20,3 +20,15 @@
 .part-img img{
     width: 45%;
 }
+
+.arr4 img{
+    top: -82px;
+}
+
+.st3{
+    background-image: url("../../images/background.svg");
+    background-position-x: 654px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-y: 130px;
+}

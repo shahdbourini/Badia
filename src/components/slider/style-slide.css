@@ -5,10 +5,32 @@
     background-position-x: 12%;
     margin-top: 79px;
     height: 532px;
+    
+}
+
+.line-slide{
+    content: ' ';
+    display: block;
+    width: 59px;
+    height: 0;
+    border-width: 0 0 2px;
+    border-style: solid;
+    position: relative;
+    bottom: 0;
+    color: #94c529;
+    top: 0px;
+}
+
+.arr2 img{
+    top:488px;
 }
 .container {
   padding: 40px;
-  /* background: #f3f3f3; */
+  background-image: url("../../images/background.svg");
+  background-position-x: 445px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 184px;
 }
 
 .position-list{
@@ -174,6 +196,7 @@
     .container {
         padding: 0px;
         padding-bottom: 66px;
+        margin-top: -100px;
     }
 
     
@@ -199,7 +222,7 @@
     
 
     .slick-dots {
-        bottom: 46px;
+        bottom: -42px;
         padding-left: 21%;
     }
 }

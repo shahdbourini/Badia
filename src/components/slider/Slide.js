@@ -10,6 +10,8 @@ import img2 from '../../images/img2.svg';
 import img3 from '../../images/img3.svg';
 import img4 from '../../images/img4.svg';
 import img5 from '../../images/img5.svg';
+import arrow from '../../images/main-arrow.svg';
+import { Link } from 'react-scroll';
 
 function Slide(props) {
   var settings = {
@@ -18,18 +20,24 @@ function Slide(props) {
     dotsClass: 'slick-dots',
   };
   return (
-    <div className="back">
+    <div className="back" id="slide">
+      <div className="down-arrow arr2" style={{ cursor: `pointer` }}>
+        <Link to="partners" spy={true} smooth={true}>
+          <img src={arrow} />
+        </Link>
+      </div>
       <div className="container">
         <div className="position-list">
           <ul className="list">
             <li>Fintech</li>
+            <div className="line-slide"></div>
             <li>Restaurant</li>
             <li>Saas</li>
           </ul>
         </div>
         <Slider {...settings}>
           <div>
-            <Row style={{ height: `350px` }}>
+            <Row style={{ height: `410px` }}>
               <Col
                 xs={{ span: 4, offset: 4 }}
                 sm={{ span: 4, offset: 4 }}
@@ -51,10 +59,8 @@ function Slide(props) {
                 md={{ span: 12, offset: 0 }}
                 lg={{ span: 9, offset: 1 }}
               >
-                {/* <div className="container"> */}
                 <div className="rounded-img">
                   <img src={img5} />
-                  {/* </div> */}
                 </div>
               </Col>
 
@@ -82,10 +88,8 @@ function Slide(props) {
                 md={{ span: 12, offset: 5 }}
                 lg={{ span: 9, offset: 8 }}
               >
-                <div className="container">
-                  <div className="rounded-img">
-                    <img src={img2} />
-                  </div>
+                <div className="rounded-img">
+                  <img src={img2} />
                 </div>
               </Col>
               <Col
@@ -112,10 +116,8 @@ function Slide(props) {
                 md={{ span: 12, offset: 5 }}
                 lg={{ span: 9, offset: 8 }}
               >
-                <div className="container">
-                  <div className="rounded-img">
-                    <img src={img3} />
-                  </div>
+                <div className="rounded-img">
+                  <img src={img3} />
                 </div>
               </Col>
               <Col
@@ -143,10 +145,8 @@ function Slide(props) {
                 md={{ span: 12, offset: 5 }}
                 lg={{ span: 9, offset: 8 }}
               >
-                <div className="container">
-                  <div className="rounded-img">
-                    <img src={img4} />
-                  </div>
+                <div className="rounded-img">
+                  <img src={img4} />
                 </div>
               </Col>
               <Col
@@ -173,10 +173,8 @@ function Slide(props) {
                 md={{ span: 12, offset: 5 }}
                 lg={{ span: 9, offset: 8 }}
               >
-                <div className="container">
-                  <div className="rounded-img">
-                    <img src={img1} />
-                  </div>
+                <div className="rounded-img">
+                  <img src={img1} />
                 </div>
               </Col>
               <Col
