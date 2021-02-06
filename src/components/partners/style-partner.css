@@ -1,3 +1,13 @@
+.back_P{
+
+    background-image: url("../../images/green-line.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: 12.7%;
+    margin-top: 79px;
+    height: 509px;
+}
+
 .title-part{
     margin-top: 109px;
     margin-left: 37%;
@@ -21,8 +31,8 @@
     width: 45%;
 }
 
-.arr4 img{
-    top: -82px;
+.arr4 a{
+    top: -102px;
 }
 
 .st3{
@@ -31,4 +41,102 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 130px;
+}
+
+/************** media query **************/
+
+@media (min-width:320px) and (max-width:575px){
+
+    .back_P {
+        background-position-x: 4.7%;
+        height: 548px;
+    }
+
+    .part-img img {
+        width: 90%;
+    }
+
+    .title-part h2{
+     font-size: 16px;
+    }
+
+    .part-line {
+        width: 159px;
+    }
+
+    .arr4 img{
+        width: 19px;
+    }
+
+    .arr4 a{
+        bottom: 72px;
+        top: -45px;
+        margin-left: 1%;
+    }
+    
+}
+
+@media (min-width:576px) and (max-width:767px){
+
+    .back_P {
+        background-position-x: 8.9%;
+        height: 540px;
+    }
+
+    .part-img img {
+        width: 77%;
+    }
+
+    .title-part h2{
+     font-size: 22px;
+    }
+
+    .part-line {
+        width: 216px;;
+    }
+
+    .arr4 img{
+        width: 19px;
+    }
+
+    .arr4 a{
+        margin-left: 0.5%;
+        bottom: 57px;
+        top: -42px;
+    }
+    
+}
+
+@media (min-width:768px) and (max-width:991px){
+
+    .back_P {
+        background-position-x: 8.9%;
+        height: 540px;
+    }
+
+    .part-img img {
+        width: 64%;
+    }
+    .title-part h2{
+        font-size: 28px;
+       }
+
+       .title-part {
+        padding-top: 22px;
+    }
+
+    .part-line {
+        width: 279px;
+    }
+
+    .arr4 img{
+        width: 19px;
+    }
+    
+    .arr4 a{
+        position: relative;
+        margin-left: 0.5%;
+        bottom: 57px;
+        top: -84px;
+    }
 }

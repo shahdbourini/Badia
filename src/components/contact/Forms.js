@@ -88,6 +88,7 @@ function Forms(props) {
                       paddingTop: `12px`,
                       paddingBottom: `12px`,
                       width: `92%`,
+                      background: `black`,
                     }}
                   />
                 </Form.Item>
@@ -116,6 +117,7 @@ function Forms(props) {
                     style={{
                       width: `92%`,
                       background: `black`,
+                      color: 'white',
                     }}
                   />
                 </Form.Item>

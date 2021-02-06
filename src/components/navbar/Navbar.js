@@ -3,11 +3,15 @@ import { NavLink, BrowserRouter, useHistory } from 'react-router-dom';
 import './style-nav.css';
 function Navbar(props) {
   let history = useHistory();
+
+  function refreshPage() {
+    window.location.reload();
+  }
   return (
     <>
       <nav
         id="nav"
-        class="navbar navbar-expand-lg navbar-light"
+        className={`navbar navbar-expand-lg ${props.styleColor}`}
         style={{ paddingTop: `24px`, backgroundColor: `${props.back}` }}
       >
         <a className="navbar-brand" href="#">
@@ -27,7 +31,7 @@ function Navbar(props) {
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <BrowserRouter>
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto" onClick={refreshPage}>
               <li class="nav-item">
                 <NavLink
                   onClick={() => history.push('/Badia')}

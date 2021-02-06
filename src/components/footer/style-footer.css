@@ -4,9 +4,48 @@ background-color: black;
 
 .icons{
     color: #94c529;
-    padding-left: 27%;
+    padding-left: 4px;
 }
 
-.icons i{
-    padding-right: 0.5rem;
+.ant-layout-footer {
+    padding: 104px 75px 1px 62px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    background: #000000;
 }
+
+/* .icons i{
+    padding-right: 0.5rem;
+} */
+
+/* .footer-paragraph{
+    color: '#94c529';
+} */
+.p1 {
+    color: #94c529;
+    /* padding-left: 5%; */
+}
+
+.p2{
+    color: #9d9d9d;
+    position : relative;
+    top: -14px;
+    /* margin-left: 11%;; */
+}
+
+.p3{
+    color: #9d9d9d;
+    position : relative;
+    top: -29px;
+    /* margin-left: 18% ; */
+    font-size:11px;
+}
+
+/********************* media query ****************/
+ @media (min-width:320px) and (max-width:575px){
+
+    .ant-layout-footer {
+        padding: 59px 75px 1px 53px;
+        font-size: 12px;
+    }
+} 

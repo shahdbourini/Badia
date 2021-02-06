@@ -21,8 +21,8 @@ function Slide(props) {
   };
   return (
     <div className="back" id="slide">
-      <div className="down-arrow arr2" style={{ cursor: `pointer` }}>
-        <Link to="partners" spy={true} smooth={true}>
+      <div className="arr2" style={{ cursor: `pointer` }}>
+        <Link to="partners" spy={true} smooth={true} zz>
           <img src={arrow} />
         </Link>
       </div>
@@ -37,11 +37,11 @@ function Slide(props) {
         </div>
         <Slider {...settings}>
           <div>
-            <Row style={{ height: `410px` }}>
+            <Row className="slide-height">
               <Col
                 xs={{ span: 4, offset: 4 }}
-                sm={{ span: 4, offset: 4 }}
-                md={{ span: 5, offset: 2 }}
+                sm={{ span: 4, offset: 3 }}
+                md={{ span: 4, offset: 2 }}
                 lg={{ span: 4, offset: 4 }}
               >
                 <div className="line"></div>
@@ -54,10 +54,10 @@ function Slide(props) {
               </Col>
 
               <Col
-                xs={{ span: 10, offset: 1 }}
-                sm={{ span: 10, offset: 0 }}
-                md={{ span: 12, offset: 0 }}
-                lg={{ span: 9, offset: 1 }}
+                xs={{ span: 8, offset: 1 }}
+                sm={{ span: 10, offset: 1 }}
+                md={{ span: 12, offset: 1 }}
+                lg={{ span: 10, offset: 1 }}
               >
                 <div className="rounded-img">
                   <img src={img5} />
@@ -65,10 +65,10 @@ function Slide(props) {
               </Col>
 
               <Col
-                xs={{ span: 4, offset: 0 }}
+                xs={{ span: 5, offset: 0 }}
                 sm={{ span: 5, offset: 0 }}
-                md={{ span: 4, offset: 0 }}
-                lg={{ span: 5, offset: 1 }}
+                md={{ span: 5, offset: 0 }}
+                lg={{ span: 5, offset: 0 }}
               >
                 <div className="slide-details">
                   <h1>Select</h1>
@@ -83,7 +83,7 @@ function Slide(props) {
           <div>
             <Row>
               <Col
-                xs={{ span: 10, offset: 4 }}
+                xs={{ span: 9, offset: 5 }}
                 sm={{ span: 12, offset: 5 }}
                 md={{ span: 12, offset: 5 }}
                 lg={{ span: 9, offset: 8 }}
@@ -93,9 +93,9 @@ function Slide(props) {
                 </div>
               </Col>
               <Col
-                xs={{ span: 6, offset: 1 }}
-                sm={{ span: 5, offset: 1 }}
-                md={{ span: 4, offset: 1 }}
+                xs={{ span: 8, offset: 1 }}
+                sm={{ span: 6, offset: 1 }}
+                md={{ span: 5, offset: 1 }}
                 lg={{ span: 5, offset: 1 }}
               >
                 <div className="slide-details">
@@ -111,7 +111,7 @@ function Slide(props) {
           <div>
             <Row>
               <Col
-                xs={{ span: 10, offset: 4 }}
+                xs={{ span: 11, offset: 4 }}
                 sm={{ span: 12, offset: 5 }}
                 md={{ span: 12, offset: 5 }}
                 lg={{ span: 9, offset: 8 }}

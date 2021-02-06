@@ -9,18 +9,17 @@ import { Link } from 'react-scroll';
 
 function Count(props) {
   return (
-    <div id="counters" className="back cs">
-      <Row style={{ paddingTop: `166px` }}>
+    <div id="counters" className="back backCounter cs">
+      <Row className="position-counter">
         <Col
-          xs={{ span: 8, offset: 0 }}
-          sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
-          lg={{ span: 5, offset: 5 }}
+          xs={{ span: 15, offset: 8 }}
+          sm={{ span: 3, offset: 5 }}
+          md={{ span: 5, offset: 5 }}
+          lg={{ span: 5, offset: 6 }}
         >
           <div className="counters">
             <img src={count1} alt="img" />
-            {/* <h1>6</h1> */}
-            <h1 style={{ top: `-35px` }}>
+            <h1 className="first-count">
               <CountUp end={9} delay={5} />
             </h1>
           </div>
@@ -31,14 +30,13 @@ function Count(props) {
         </Col>
 
         <Col
-          xs={{ span: 8, offset: 0 }}
-          sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
+          xs={{ span: 15, offset: 8 }}
+          sm={{ span: 3, offset: 3 }}
+          md={{ span: 5, offset: 1 }}
           lg={{ span: 5, offset: 0 }}
         >
           <div className="counters">
             <img src={count2} alt="img" />
-            {/* <h1>15</h1> */}
             <h1>
               <CountUp end={15} delay={5} />
             </h1>
@@ -50,14 +48,13 @@ function Count(props) {
         </Col>
 
         <Col
-          xs={{ span: 8, offset: 0 }}
-          sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
+          xs={{ span: 15, offset: 8 }}
+          sm={{ span: 3, offset: 3 }}
+          md={{ span: 5, offset: 1 }}
           lg={{ span: 5, offset: 0 }}
         >
           <div className="counters">
             <img src={count3} alt="img" />
-            {/* <h1>12</h1> */}
             <h1>
               <CountUp end={12} delay={5} />
             </h1>
@@ -68,7 +65,7 @@ function Count(props) {
           </div>
         </Col>
       </Row>
-      <div className="down-arrow arr5" style={{ cursor: `pointer` }}>
+      <div className="arr5" style={{ cursor: `pointer` }}>
         <Link to="nav" spy={true} smooth={true}>
           <img src={top} />
         </Link>

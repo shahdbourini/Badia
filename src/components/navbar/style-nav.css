@@ -4,21 +4,38 @@
 
 .navbar-light .navbar-brand {
     position: relative;
-    left: 11%;
 }
+
+/* .navbar-dark .navbar-brand {
+    position: relative;
+    left: 11%;
+} */
 
 .navbar-light .navbar-nav .nav-link {
     padding-left: 25px;
     color:black;
 }
 
-
-/* a.is-active {
+.navbar-dark .navbar-nav .is-active{
     text-decoration: underline;
     text-decoration-color:#94c529 ;
-  } */
+    text-decoration-thickness: 3px;
+  }
+
+  .navbar-dark .navbar-nav :hover{
+    text-decoration: underline;
+    text-decoration-color:#94c529 ;
+    text-decoration-thickness: 3px;
+  }
+
 
   .navbar-light .navbar-nav .is-active{
+    text-decoration: underline;
+    text-decoration-color:#94c529 ;
+    text-decoration-thickness: 3px;
+  }
+
+  .navbar-light .navbar-nav :hover{
     text-decoration: underline;
     text-decoration-color:#94c529 ;
     text-decoration-thickness: 3px;

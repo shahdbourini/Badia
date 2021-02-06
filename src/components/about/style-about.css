@@ -4,7 +4,6 @@
 }
 
 .wwa p{
-    width: 500px;
     font-size: 1.1rem;
 }
 
@@ -13,13 +12,11 @@
         background-image: url("../../images/green-line.svg");
         background-repeat: no-repeat;
         background-size: contain;
-        background-position-x: 12%;
+        background-position-x: 12.7%;
         margin-top: 79px;
+        height: 509px;
 }
-/* .green{
-    width: 54px;
-    margin-left: 140px;
-} */
+
 .about-images{
 position: relative;
 top:50px;
@@ -61,9 +58,115 @@ top:50px;
 }
 
 .down-arrow img{
-    position: relative;
     align-items: center;
-    left: 163px;
-    width: 28px;
-    bottom: 14px;
+    width: 23px;
+}
+
+.down-arrow a{
+    position: relative;
+    left: 13.2%;
+    bottom: -15px;
+}
+
+/*************************media query ********************/
+
+@media(min-width:320px) and (max-width:575px){
+    .back1{
+        height: 449px;
+    }
+    .wwa h1{
+        font-size: 18px;
+    }
+    .wwa p {
+        font-size: 13px;
+    }
+
+    .back1 {
+        background-position-x: 4.7%;
+    }
+    .down-arrow img {
+        width: 19px;
+    }
+
+    .down-arrow a {
+        left: 6%;
+        bottom: 57px;
+        top: -62px;
+    }
+
+    .about-images {
+        top: 17px;
+    }
+    
+    .about2 {
+        top: -9px;
+    }
+    
+    .line2 {
+        top: -17px;
+    }
+    
+    .about3 {
+        top: -18px;
+    }
+    
+    .wwa {
+        top: 13%;
+    }
+    
+}
+
+@media(min-width:576px) and (max-width:991px){
+    .wwa {
+        top: 32%;
+    }
+    .wwa h1{
+        font-size: 20px;
+    }
+    .wwa p {
+        font-size: 15px;
+    }
+
+    .back1 {
+        background-position-x: 8.7%;
+    }
+    .down-arrow img {
+        width: 21px;
+    }
+
+    .down-arrow a {
+        left: 9.7%;
+        bottom: -121px;
+        position: relative;
+    }
+
+    .about-images {
+        top: 124px;
+    }
+    
+    .about2 {
+        top: 99px;
+    }
+    
+    .line2 {
+        top: 94px;
+    }
+    
+    .about3 {
+        top: 92px;
+    }
+    
+}
+
+@media(min-width:992px) and (max-width:1133px){
+
+    .down-arrow img {
+        width: 21px;
+    }
+
+    .down-arrow a {
+        left: 13%;
+        bottom: -87px;
+    }
+
 }

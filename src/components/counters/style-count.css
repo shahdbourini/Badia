@@ -28,6 +28,11 @@
 
 }
 
+.first-count{
+    position: relative;
+   top: -35px;
+}
+
 .title-count h4{
     position: relative;
     left: 18%;
@@ -58,5 +63,225 @@
 }
 
 .arr5 img{ 
-    top: 78px;
+    width: 19px;
+}
+.arr5 a{ 
+    top: 61px;
+    margin-left: 13.4%;
+    position: relative;
+}
+
+.position-counter{
+   padding-top: 166px;
+}
+/*************************media query ********************/
+
+@media(min-width:320px) and (max-width:575px){
+
+    
+    .cs {
+        margin-bottom: 166px;
+        height: 585px;
+    }
+
+   .position-counter {
+    padding-top: 49px;
+    }
+
+    .counters {
+    width: 148px;
+    height: 116px;
+    }
+
+    .counters h1{
+        font-size: 41px;
+        position: relative;
+        top: -17px;
+    }
+
+   .counters img {
+    width: 35%;
+    position: relative;
+    left: 39px;
+    top: -21px;
+    padding-bottom: 10px;
+}
+
+    .title-count {
+        padding-top: 39px;
+        position: relative;
+        left: -11%;
+        top: -29px;
+    }
+
+    .title-count h4 {
+        left: 25%;
+        font-size: 18px;}
+
+    .count-line {
+        width: 65px;
+        left: 25%;
+        top: -8px;
+    }
+
+    .line3 {
+        width: 45px;}
+
+    .first-count h1{
+        position: relative;
+        top: -57px;
+    }
+
+    .arr5 a {
+        top: -93px;
+        margin-left: 8%;
+    }
+
+   .arr5 img {
+    width: 19px;
+}
+
+}
+
+
+
+@media(min-width:576px) and (max-width:767px){
+
+    .backCounter {
+        background-position-x: 8.7%;
+    }
+    
+    .cs {
+        margin-bottom: 166px;
+        height: 486px;
+    }
+
+   .position-counter {
+    padding-top: 208px;
+    }
+
+    .counters {
+    width: 129px;
+    height: 106px;;
+    }
+
+    .counters h1{
+        font-size: 41px;
+        position: relative;
+        top: -17px;
+    }
+
+   .counters img {
+    width: 35%;
+    position: relative;
+    left: 39px;
+    top: -21px;
+    padding-bottom: 10px;
+}
+
+    .title-count {
+        padding-top: 39px;
+        position: relative;
+        left: -11%;
+        top: -29px;
+    }
+
+    .title-count h4 {
+        left: 25%;
+        font-size: 18px;}
+
+    .count-line {
+        width: 65px;
+        left: 25%;
+        top: -8px;
+    }
+
+    .line3 {
+        width: 45px;}
+
+    .first-count h1{
+        position: relative;
+        top: -57px;
+    }
+
+    .arr5 a {
+        top: 61px;
+        margin-left: 9.8%;
+       }
+
+    .arr5 img {
+        width: 21px;}
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+    .backCounter {
+        background-position-x: 8.7%;
+    }
+    
+    .cs {
+        margin-bottom: 166px;
+        height: 486px;
+    }
+
+   .position-counter {
+    padding-top: 208px;
+    }
+
+    .counters {
+        width: 179px;
+        height: 156px;
+    }
+
+    .counters h1{
+        font-size: 41px;
+        position: relative;
+        top: -20px;
+    }
+
+   .counters img {
+    width: 39%;
+    position: relative;
+    /* left: 39px; */
+    top: -31px;
+    padding-bottom: 18px;
+}
+
+    .title-count {
+        padding-top: 39px;
+        position: relative;
+        left: -11%;
+        top: -29px;
+    }
+
+    .title-count h4 {
+        left: 34%;
+        font-size: 21px;
+    }
+
+    .count-line {
+        width: 83px;
+        left: 34%;
+    }
+
+    .line3 {
+        width: 53px;
+    }
+
+    .first-count h1{
+        position: relative;
+        top: -30px;
+    }
+
+    .arr5 img {
+        width: 21px;
+
+}
+
+   .arr5 a {
+    top: 6px;
+    margin-left: 9.8%;
+
+}
 }

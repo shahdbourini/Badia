@@ -11,11 +11,11 @@ import './style-about.css';
 function About(props) {
   return (
     <div className="back1" id="about">
-      <Row style={{ marginTop: `20px`, height: `509px` }}>
+      <Row style={{ marginTop: `20px` }}>
         <Col
-          xs={{ span: 8, offset: 6 }}
-          sm={{ span: 10, offset: 4 }}
-          md={{ span: 10, offset: 4 }}
+          xs={{ span: 18, offset: 5 }}
+          sm={{ span: 9, offset: 5 }}
+          md={{ span: 10, offset: 5 }}
           lg={{ span: 10, offset: 5 }}
         >
           <div className="wwa">
@@ -35,9 +35,9 @@ function About(props) {
         </Col>
 
         <Col
-          xs={{ span: 10, offset: 10 }}
+          xs={{ span: 10, offset: 8 }}
           sm={{ span: 9, offset: 1 }}
-          md={{ span: 7, offset: 1 }}
+          md={{ span: 7, offset: 2 }}
           lg={{ span: 7, offset: 1 }}
         >
           <div className="about-images">

@@ -11,7 +11,7 @@ import { Link } from 'react-scroll';
 
 function Partners(props) {
   return (
-    <div className="back " id="partners">
+    <div className="back_P " id="partners">
       <div className="title-part">
         <h2>Ecosystem PARTNERS</h2>
         <div className="part-line"></div>
@@ -22,54 +22,54 @@ function Partners(props) {
         className="part-img st3"
       >
         <Col
-          xs={{ span: 8, offset: 0 }}
+          xs={{ span: 7, offset: 4 }}
           sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
+          md={{ span: 7, offset: 2 }}
           lg={{ span: 8, offset: 0 }}
         >
           <img src={part1} alt="img" />
         </Col>
 
         <Col
-          xs={{ span: 8, offset: 0 }}
+          xs={{ span: 7, offset: 3 }}
           sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
+          md={{ span: 7, offset: 0 }}
           lg={{ span: 8, offset: 0 }}
         >
           <img src={part2} alt="img" />
         </Col>
 
         <Col
-          xs={{ span: 8, offset: 0 }}
+          xs={{ span: 7, offset: 4 }}
           sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
+          md={{ span: 7, offset: 0 }}
           lg={{ span: 8, offset: 0 }}
         >
           <img src={part3} alt="img" />
         </Col>
 
         <Col
-          xs={{ span: 8, offset: 0 }}
+          xs={{ span: 7, offset: 3 }}
           sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
+          md={{ span: 7, offset: 2 }}
           lg={{ span: 8, offset: 0 }}
         >
           <img src={part4} alt="img" />
         </Col>
 
         <Col
-          xs={{ span: 8, offset: 0 }}
+          xs={{ span: 7, offset: 4 }}
           sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
+          md={{ span: 7, offset: 0 }}
           lg={{ span: 8, offset: 0 }}
         >
           <img src={part5} alt="img" />
         </Col>
 
         <Col
-          xs={{ span: 8, offset: 0 }}
+          xs={{ span: 7, offset: 3 }}
           sm={{ span: 8, offset: 0 }}
-          md={{ span: 10, offset: 0 }}
+          md={{ span: 7, offset: 0 }}
           lg={{ span: 8, offset: 0 }}
         >
           <img src={part6} alt="img" />

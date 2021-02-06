@@ -9,7 +9,7 @@ function Main(props) {
     <div className="col-img" id="main">
       <Row style={{ marginTop: `20px` }}>
         <Col
-          xs={{ span: 8, offset: 2 }}
+          xs={{ span: 8, offset: 1 }}
           sm={{ span: 8, offset: 2 }}
           md={{ span: 10, offset: 2 }}
           lg={{ span: 10, offset: 3 }}
@@ -33,10 +33,10 @@ function Main(props) {
         </Col>
 
         <Col
-          xs={{ span: 10, offset: 1 }}
-          sm={{ span: 11, offset: 1 }}
-          md={{ span: 9, offset: 0 }}
-          lg={{ span: 7, offset: 1 }}
+          xs={{ span: 14, offset: 1 }}
+          sm={{ span: 12, offset: 1 }}
+          md={{ span: 10, offset: 0 }}
+          lg={{ span: 8, offset: 0 }}
         >
           <div className="main">
             <img src={lamp} />
