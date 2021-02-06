@@ -4,9 +4,9 @@ import './style-nav.css';
 function Navbar(props) {
   let history = useHistory();
 
-  function refreshPage() {
-    window.location.reload();
-  }
+  // function refreshPage() {
+  //   window.location.reload();
+  // }
   return (
     <>
       <nav
@@ -31,7 +31,7 @@ function Navbar(props) {
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <BrowserRouter>
-            <ul class="navbar-nav ml-auto" onClick={refreshPage}>
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item">
                 <NavLink
                   onClick={() => history.push('/Badia')}
