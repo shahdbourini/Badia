@@ -22,12 +22,6 @@
     text-decoration-thickness: 3px;
   }
 
-  .navbar-dark .navbar-nav :hover{
-    text-decoration: underline;
-    text-decoration-color:#94c529 ;
-    text-decoration-thickness: 3px;
-  }
-
 
   .navbar-light .navbar-nav .is-active{
     text-decoration: underline;
@@ -35,11 +29,12 @@
     text-decoration-thickness: 3px;
   }
 
-  .navbar-light .navbar-nav :hover{
+
+  .nav-link:hover {
     text-decoration: underline;
     text-decoration-color:#94c529 ;
     text-decoration-thickness: 3px;
-  }
+}
 
 .navbar-collapse {
     padding-right: 5%;

@@ -8,9 +8,9 @@ function Products(props) {
     <div className="st-p">
       <Row style={{ paddingTop: `75px` }}>
         <Col
-          xs={{ span: 8, offset: 2 }}
+          xs={{ span: 8, offset: 1 }}
           sm={{ span: 8, offset: 2 }}
-          md={{ span: 10, offset: 3 }}
+          md={{ span: 8, offset: 3 }}
           lg={{ span: 7, offset: 3 }}
         >
           <div className="product">
@@ -18,8 +18,8 @@ function Products(props) {
           </div>
         </Col>
         <Col
-          xs={{ span: 8, offset: 1 }}
-          sm={{ span: 8, offset: 1 }}
+          xs={{ span: 13, offset: 1 }}
+          sm={{ span: 12, offset: 1 }}
           md={{ span: 10, offset: 1 }}
           lg={{ span: 8, offset: 1 }}
           style={{ height: '374px' }}

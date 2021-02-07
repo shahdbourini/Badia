@@ -13,6 +13,9 @@
     .ant-cascader-menus {
         width: 39%;
     }
+    .ant-cascader-menus ul, .ant-cascader-menus ol {
+        width: 100%;
+    }
 
     .anticon svg {
         color: #94c529;}
@@ -27,6 +30,7 @@
 .ant-input:focus, .ant-input-focused {
     border-color: #94c529;
 }
+
 .ant-input:hover {
     border-color: #94c529;
 }
@@ -62,7 +66,7 @@
 }
 
 .ant-cascader-menu-item:hover {
-    background: white;
+    background: rgb(222 238 214);
 }
 
 /****************media query ******************/
