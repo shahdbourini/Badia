@@ -3,9 +3,6 @@ import './style-nav.css';
 function Navbar(props) {
   let history = useHistory();
 
-  // function refreshPage() {
-  //   window.location.reload();
-  // }
   return (
     <>
       <nav
@@ -29,73 +26,64 @@ function Navbar(props) {
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <BrowserRouter>
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <NavLink
-                  onClick={() => history.push('/Badia')}
-                  to="/Badia"
-                  activeClassName="is-active"
-                  className="nav-link"
-                  style={{ color: `${props.color}` }}
-                >
-                  Home
-                </NavLink>
-              </li>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <NavLink
+                to="/Badia"
+                activeClassName="is-active"
+                className="nav-link"
+                style={{ color: `${props.color}` }}
+              >
+                Home
+              </NavLink>
+            </li>
 
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                  style={{ color: `${props.color}` }}
-                >
-                  Products
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                style={{ color: `${props.color}` }}
+              >
+                Products
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <NavLink className="dropdown-item" to="/Products">
+                  Visubuild
+                </NavLink>
+
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                  Imvepe
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <NavLink
-                    className="dropdown-item"
-                    onClick={() => history.push('/Products')}
-                    to="/Products"
-                  >
-                    Visubuild
-                  </NavLink>
+              </div>
+            </li>
 
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">
-                    Imvepe
-                  </a>
-                </div>
-              </li>
-
-              <li class="nav-item">
-                <NavLink
-                  onClick={() => history.push('/About')}
-                  to="/About"
-                  activeClassName="is-active"
-                  className="nav-link"
-                  style={{ color: `${props.color}` }}
-                >
-                  About
-                </NavLink>
-              </li>
-              <li class="nav-item">
-                <NavLink
-                  onClick={() => history.push('/contact')}
-                  to="/contact"
-                  activeClassName="is-active"
-                  className="nav-link"
-                  style={{ color: `${props.color}` }}
-                >
-                  Contact Us
-                </NavLink>
-              </li>
-            </ul>
-          </BrowserRouter>
+            <li class="nav-item">
+              <NavLink
+                to="/About"
+                activeClassName="is-active"
+                className="nav-link"
+                style={{ color: `${props.color}` }}
+              >
+                About
+              </NavLink>
+            </li>
+            <li class="nav-item">
+              <NavLink
+                to="/contact"
+                activeClassName="is-active"
+                className="nav-link"
+                style={{ color: `${props.color}` }}
+              >
+                Contact Us
+              </NavLink>
+            </li>
+          </ul>
         </div>
       </nav>
     </>

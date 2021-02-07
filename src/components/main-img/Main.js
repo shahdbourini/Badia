@@ -21,13 +21,12 @@ function Main(props) {
               A <bold style={{ color: '#94C529' }}>Venture Builder </bold> Built
               On Proof<bold style={{ color: '#94C529' }}>. </bold>
             </p>
-            <a href="/Contact">
-              <Button>Let's talk</Button>
-            </a>
 
-            <a href="/About">
-              <Button className="scd-btn">More info</Button>
-            </a>
+            <Button onClick={() => history.push('/Contact')}>Let's talk</Button>
+
+            <Button className="scd-btn" onClick={() => history.push('/About')}>
+              More info
+            </Button>
           </div>
           <div className="main-arrow" style={{ cursor: `pointer` }}>
             <Link to="about" spy={true} smooth={true}>

@@ -7,12 +7,12 @@ import Contact from './pages/Contact';
 import Footerr from './components/footer/Footerr';
 import black from './images/black-logo.svg';
 import logo from './images/logo.svg';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <Switch>
           <Route exact path="/Badia">
             <Navbar
@@ -54,9 +54,9 @@ function App() {
             <Contact />
           </Route>
         </Switch>
-      </BrowserRouter>
 
-      <Footerr />
+        <Footerr />
+      </Router>
     </>
   );
 }
