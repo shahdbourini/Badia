@@ -1,4 +1,3 @@
-// import logo from '../../images/logo.svg';
 import { NavLink, BrowserRouter, useHistory } from 'react-router-dom';
 import './style-nav.css';
 function Navbar(props) {

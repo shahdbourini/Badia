@@ -3,8 +3,10 @@ import lamp from '../../images/lamp.svg';
 import arrow from '../../images/main-arrow.svg';
 import { Link } from 'react-scroll';
 import './style-main.css';
+import { NavLink, BrowserRouter, useHistory } from 'react-router-dom';
 
 function Main(props) {
+  let history = useHistory();
   return (
     <div className="col-img" id="main">
       <Row style={{ marginTop: `20px` }}>
@@ -19,8 +21,13 @@ function Main(props) {
               A <bold style={{ color: '#94C529' }}>Venture Builder </bold> Built
               On Proof<bold style={{ color: '#94C529' }}>. </bold>
             </p>
-            <Button>Let's talk</Button>
-            <Button className="scd-btn">More info</Button>
+            <a href="/Contact">
+              <Button>Let's talk</Button>
+            </a>
+
+            <a href="/About">
+              <Button className="scd-btn">More info</Button>
+            </a>
           </div>
           <div className="main-arrow" style={{ cursor: `pointer` }}>
             <Link to="about" spy={true} smooth={true}>
