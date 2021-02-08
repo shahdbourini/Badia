@@ -3,10 +3,29 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-position-x: 12.7%;
-    margin-top: 119px;
+    margin-top: 169px;
     height: 100vh;
     
 }
+
+/* 
+.main-arrow3{
+    background-color: #94c529;
+    position: relative;
+    top: 227vh;
+    width: 43px;
+    height: 100vh;
+    position: absolute;
+    left: 12vw;
+}
+
+.main-arrow3 img {
+    position: absolute;
+    width: 44%;
+    align-items: center;
+    top: 93vh;
+    left: 27%;
+} */
 
 .line-slide{
     content: ' ';
@@ -32,12 +51,12 @@
 
 .slide-height{
     /* height:412px; */
-    height: 100vh;
+    height: 90vh;
 }
 
 .position-list{
     position: relative;
-    top: 74px;
+    top: 7vh;
     padding-left: 125px;
 }
 
@@ -129,7 +148,15 @@
     width: 23px;
     bottom: 14px;
     top: 92vh;
+    z-index: 50;
 }
+
+/* .arr2{
+    cursor: pointer;
+    top: 92vh;
+    position: relative;
+    z-index: 50;
+} */
 
 /****************************** media query **********************************/
 
@@ -233,12 +260,12 @@
 
     .back {
         background-position-x: 8.7%;
-        /* height: 427px; */
+        height: 489px;
     }
     .arr2 img {
         left: 9.4%;
         width: 23px;
-        /* top: 489px; */
+        top: 428px;
     }
 
     .position-list {

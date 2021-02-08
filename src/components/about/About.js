@@ -11,7 +11,12 @@ import './style-about.css';
 function About(props) {
   return (
     <div className="back1" id="about">
-      <Row style={{ marginTop: `20px` }}>
+      {/* <div className="main-arrow2" style={{ cursor: `pointer` }}>
+        <Link to="slide" spy={true} smooth={true}>
+          <img src={arrow} />
+        </Link>
+      </div> */}
+      <Row className="about-row">
         <Col
           xs={{ span: 18, offset: 5 }}
           sm={{ span: 9, offset: 5 }}

@@ -5,6 +5,23 @@
     top: -33px;
 }
 
+.main-arrow5{
+    background-color: #94c529;
+    position: relative;
+    top: 484vh;
+    width: 43px;
+    height: 100vh;
+    position: absolute;
+    left: 12vw;
+}
+
+.main-arrow5 img {
+    position: absolute;
+    width: 44%;
+    align-items: center;
+    top: 93vh;
+    left: 27%;
+}
 .counters{
     width: 190px;
     height: 165px;
@@ -48,7 +65,7 @@
     position: relative;
     bottom: 0;
     color: #94c529;
-    left: 47px;
+    left: 4vw;
     top: -8px;
 
 }
@@ -62,21 +79,21 @@
      margin-bottom: 166px;
 }
 
-.arr5 img{ 
+/* .arr5 img{ 
     width: 19px;
-}
-.arr5 a{ 
+} */
+.arr5 img{ 
     top: 43vh;
     margin-left: 13.4%;
     position: relative;
+    width: 19px;
+    top: 90vh
 }
 
-/* .arr5{
-    top: 21vh;
-} */
 
 .position-counter{
    padding-top: 166px;
+   height: 84vh;
 }
 /*************************media query ********************/
 
@@ -89,7 +106,8 @@
     }
 
    .position-counter {
-    padding-top: 49px;
+    padding-top: 2vh;
+    height: 500px;
     }
 
     .counters {
@@ -107,7 +125,7 @@
     width: 35%;
     position: relative;
     left: 39px;
-    top: -21px;
+    /* top: -21px; */
     padding-bottom: 10px;
 }
 
@@ -135,14 +153,16 @@
         position: relative;
         top: -57px;
     }
-
+/* 
     .arr5 a {
         top: -10vh;
         margin-left: 8%;
-    }
+    } */
 
    .arr5 img {
     width: 19px;
+    top: 535px;
+    margin-left: 8%;
 }
 
 }
@@ -157,7 +177,7 @@
     
     .cs {
         margin-bottom: 166px;
-        height: 486px;
+        height: 585px;
     }
 
    .position-counter {
@@ -166,7 +186,7 @@
 
     .counters {
     width: 129px;
-    height: 106px;;
+    height: 106px;
     }
 
     .counters h1{
@@ -208,13 +228,14 @@
         top: -57px;
     }
 
-    .arr5 a {
-        top: -11vh;
-    margin-left: 9.8%;
-       }
-
     .arr5 img {
-        width: 21px;}
+        top: 523px;
+        margin-left: 10.4%;
+        position: relative;
+        width: 19px;
+    }
+
+
 
 }
 
@@ -226,7 +247,7 @@
     
     .cs {
         margin-bottom: 166px;
-        height: 486px;
+        height: 100vh;
     }
 
    .position-counter {
@@ -278,14 +299,15 @@
         top: -30px;
     }
 
-    .arr5 img {
+    /* .arr5 img {
         width: 21px;
 
-}
+} */
 
-   .arr5 a {
-    top: -21vh;
+   .arr5 img {
+    /* top: -21vh; */
     margin-left: 9.8%;
+    width: 21px;
 
 }
 }

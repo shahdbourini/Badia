@@ -14,7 +14,9 @@
     margin-top: 7vh;
     margin-right: 2%;
 }
-
+.main-arrow{
+    height: 87vh;
+}
 
 .left .ant-btn.scd-btn{
     color: #94c529;
@@ -56,9 +58,9 @@
 .main-arrow {
     background-color: #94c529;
     position: relative;
-    top: 62vh;
+    top: 65vh;
     width: 43px;
-    height: 123px;
+    height: 122px;
     border-top-left-radius: 44px;
     border-top-right-radius: 44px;
     position: absolute;
@@ -79,7 +81,7 @@
 .about {
     position: absolute;
     left: 85px;
-    top: 68vh;
+    top: 74vh;
     font-size: 17px;
     font-weight: 500;
     width: 35vw;
@@ -94,7 +96,7 @@
     border-style: solid;
     position: absolute;
     bottom: 0;
-    top: 73vh;
+    top: 78vh;
     color: #94c529;
     float: left;
     left: 87px;
@@ -173,17 +175,11 @@
     }
 
     .main img{
-        width: 68%;
+        width: 66%;
         padding-bottom: 28px;
         padding-top: 75px;
-        margin-left: 12%;
+        margin-left: 16%;
         margin-bottom: 5%;
-
-    /* padding-bottom: 7vh;
-    padding-top: 6vh;
-    margin-left: 6.1vw;
-    margin-bottom: 5vh;
-    width: 51vh; */
     }
 
     .name p{
@@ -192,13 +188,9 @@
     }
 
     .main {
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     }
-/* 
-    .main-arrow {
-    top: 85px;
-    } */
 
     .about {
     /* top: 15px; */
@@ -259,6 +251,16 @@
     }
 
     @media (min-width: 320px) and (max-width: 499px){
+
+    .col-img{
+        height: 53vh;
+    }
+
+    .main-arrow {
+        top: 37vh;
+    }
+
+
     .left p {
         font-size: 18px;
         /* margin-top: 5px; */
@@ -296,12 +298,12 @@
     } */
 
     .about {
-        /* top: 3vh; */
+        top: 43vh;
         font-size: 13px;
     }
 
     .under-line {
-        /* top: 1vh; */
+        top: 46vh;
         width: 79px;
     }
     }   

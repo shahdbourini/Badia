@@ -9,7 +9,7 @@ function Main(props) {
   let history = useHistory();
   return (
     <div className="col-img" id="main">
-      <Row style={{ marginTop: `20px`, hright: `87vh` }}>
+      <Row className="main-row">
         <Col
           xs={{ span: 8, offset: 1 }}
           sm={{ span: 8, offset: 2 }}

@@ -26,6 +26,11 @@ function Slide(props) {
           <img src={arrow} />
         </Link>
       </div>
+      {/* <div className="main-arrow3" style={{ cursor: `pointer` }}>
+        <Link to="partners" spy={true} smooth={true}>
+          <img src={arrow} />
+        </Link>
+      </div> */}
       <div className="container">
         <div className="position-list">
           <ul className="list">

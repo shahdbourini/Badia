@@ -12,15 +12,22 @@ import { Link } from 'react-scroll';
 function Partners(props) {
   return (
     <div className="back_P " id="partners">
+      {/* <div className="main-arrow4" style={{ cursor: `pointer` }}>
+        <Link to="counters" spy={true} smooth={true}>
+          <img src={arrow} />
+        </Link>
+      </div> */}
+
+      <div className="arr4" style={{ cursor: `pointer` }}>
+        <Link to="counters" spy={true} smooth={true}>
+          <img src={arrow} />
+        </Link>
+      </div>
       <div className="title-part">
         <h2>Ecosystem PARTNERS</h2>
         <div className="part-line"></div>
       </div>
-      <Row
-        gutter={[0, 64]}
-        style={{ paddingLeft: `20%`, height: `446px` }}
-        className="part-img st3"
-      >
+      <Row gutter={[0, 64]} className="part-img st3 partner-row">
         <Col
           xs={{ span: 7, offset: 4 }}
           sm={{ span: 8, offset: 0 }}
@@ -75,11 +82,6 @@ function Partners(props) {
           <img src={part6} alt="img" />
         </Col>
       </Row>
-      <div className="down-arrow arr4" style={{ cursor: `pointer` }}>
-        <Link to="counters" spy={true} smooth={true}>
-          <img src={arrow} />
-        </Link>
-      </div>
     </div>
   );
 }

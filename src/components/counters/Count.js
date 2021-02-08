@@ -10,6 +10,17 @@ import { Link } from 'react-scroll';
 function Count(props) {
   return (
     <div id="counters" className="back backCounter cs">
+      {/* <div className="main-arrow5" style={{ cursor: `pointer` }}>
+        <Link to="nav" spy={true} smooth={true}>
+          <img src={top} />
+        </Link>
+      </div> */}
+
+      <div className="arr5" style={{ cursor: `pointer` }}>
+        <Link to="nav" spy={true} smooth={true}>
+          <img src={top} />
+        </Link>
+      </div>
       <Row className="position-counter">
         <Col
           xs={{ span: 15, offset: 8 }}
@@ -65,11 +76,6 @@ function Count(props) {
           </div>
         </Col>
       </Row>
-      <div className="arr5" style={{ cursor: `pointer` }}>
-        <Link to="nav" spy={true} smooth={true}>
-          <img src={top} />
-        </Link>
-      </div>
     </div>
   );
 }

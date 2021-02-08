@@ -1,11 +1,17 @@
 .wwa{
     position: relative;
-    top: 22%;
+    top: 20vh;
 }
 
 .wwa p{
     font-size: 1.1rem;
 }
+
+.about-row{
+   margin-top: 20px;
+    height: 100vh
+ }
+
 
 .back1{
 
@@ -15,6 +21,25 @@
         background-position-x: 12.7%;
         margin-top: 79px;
         height: 100vh;
+}
+
+.main-arrow2{
+    background-color: #94c529;
+    position: relative;
+    top: 118vh;
+    width: 43px;
+    height: 100vh;
+    position: absolute;
+    left: 12vw;
+}
+
+
+.main-arrow2 img {
+    position: absolute;
+    width: 44%;
+    align-items: center;
+    top: 93vh;
+    left: 27%;
 }
 
 .about-images{
@@ -63,9 +88,11 @@ top:50px;
 }
 
 .down-arrow a{
+    align-items: center;
+    width: 23px;
     position: relative;
-    left: 13.2%;
-    top: 39vh;
+    left: 13.5%;
+    bottom: 10vh;
 }
 
 /*************************media query ********************/
@@ -74,6 +101,11 @@ top:50px;
     .back1{
         height: 449px;
     }
+    .about-row{
+        margin-top: 20px;
+         height: 449px;
+      }
+     
     .wwa h1{
         font-size: 18px;
     }
@@ -90,7 +122,8 @@ top:50px;
 
     .down-arrow a {
         left: 6.5%;
-        top: -6vh;
+        position: relative;
+        bottom: 7vh;
     }
 
     .about-images {
@@ -113,11 +146,18 @@ top:50px;
         top: 13%;
     }
     
+    
 }
 
 @media(min-width:576px) and (max-width:991px){
+    .back1{
+        height: 520px;
+    }
+    .about-row{
+         height: 520px;
+      }
     .wwa {
-        top: 32%;
+        top: 26%;
     }
     .wwa h1{
         font-size: 20px;
@@ -135,8 +175,8 @@ top:50px;
 
     .down-arrow a {
         left: 9.7%;
-        top: 23vh;
         position: relative;
+        bottom: 5vh;
     }
 
     .about-images {
@@ -154,10 +194,24 @@ top:50px;
     .about3 {
         top: 92px;
     }
+
+    .main-arrow2{
+        /* top: -3vh; */
+        width: 44px;
+        height: 100vh;
+        left: -12.8vw;
+    }
     
 }
 
 @media(min-width:992px) and (max-width:1133px){
+
+    .back1{
+        height: 581px;
+    }
+    .about-row{
+         height: 581px;
+      }
 
     .down-arrow img {
         width: 21px;
@@ -165,7 +219,12 @@ top:50px;
 
     .down-arrow a {
         left: 13.5%;
-        top: 21vh;
+        bottom: 6vh;
+        position: relative;
+    }
+
+    .wwa {
+        top: 8vh;
     }
 
 }
