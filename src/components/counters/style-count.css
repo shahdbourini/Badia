@@ -66,9 +66,13 @@
     width: 19px;
 }
 .arr5 a{ 
-    top: 43vh;
+    /* top: 43vh; */
     margin-left: 13.4%;
     position: relative;
+}
+
+.arr5{
+    top: 21vh;
 }
 
 .position-counter{
@@ -133,7 +137,7 @@
     }
 
     .arr5 a {
-        top: -93px;
+        top: -35vh;
         margin-left: 8%;
     }
 
@@ -205,8 +209,8 @@
     }
 
     .arr5 a {
-        top: 61px;
-        margin-left: 9.8%;
+        top: -11vh;
+    margin-left: 9.8%;
        }
 
     .arr5 img {
@@ -280,7 +284,7 @@
 }
 
    .arr5 a {
-    top: 6px;
+    top: -21vh;
     margin-left: 9.8%;
 
 }

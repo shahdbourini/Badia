@@ -32,7 +32,8 @@
 }
 
 .arr4 a{
-    top: 19vh;
+    top: -10vh;
+    left: 13.5%;
 }
 
 .st3{
@@ -71,7 +72,7 @@
     .arr4 a{
         bottom: 72px;
         top: -45px;
-        margin-left: 1%;
+        margin-left: -5%;
     }
     
 }
@@ -100,7 +101,7 @@
     }
 
     .arr4 a{
-        margin-left: 0.5%;
+        margin-left: -2.5%;
         bottom: 57px;
         top: -42px;
     }
@@ -135,7 +136,7 @@
     
     .arr4 a{
         position: relative;
-        margin-left: 0.5%;
+        margin-left: -3.5%;
         bottom: 57px;
         top: -84px;
     }
