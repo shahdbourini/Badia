@@ -14,7 +14,7 @@
         background-size: contain;
         background-position-x: 12.7%;
         margin-top: 79px;
-        height: 509px;
+        height: 100vh;
 }
 
 .about-images{
@@ -65,7 +65,7 @@ top:50px;
 .down-arrow a{
     position: relative;
     left: 13.2%;
-    bottom: -15px;
+    top: 12vh;
 }
 
 /*************************media query ********************/
@@ -89,9 +89,8 @@ top:50px;
     }
 
     .down-arrow a {
-        left: 6%;
-        bottom: 57px;
-        top: -62px;
+        left: 6.5%;
+        top: -12vh;
     }
 
     .about-images {
@@ -136,7 +135,7 @@ top:50px;
 
     .down-arrow a {
         left: 9.7%;
-        bottom: -121px;
+        top: 23vh;
         position: relative;
     }
 
@@ -165,8 +164,8 @@ top:50px;
     }
 
     .down-arrow a {
-        left: 13%;
-        bottom: -87px;
+        left: 13.5%;
+        top: 21vh;
     }
 
 }

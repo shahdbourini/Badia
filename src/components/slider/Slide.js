@@ -22,7 +22,7 @@ function Slide(props) {
   return (
     <div className="back" id="slide">
       <div className="arr2" style={{ cursor: `pointer` }}>
-        <Link to="partners" spy={true} smooth={true} zz>
+        <Link to="partners" spy={true} smooth={true}>
           <img src={arrow} />
         </Link>
       </div>
@@ -101,8 +101,8 @@ function Slide(props) {
                 <div className="slide-details">
                   <h1>Ideate</h1>
                   <p>
-                    Select theme, identify clusters, research segments, map
-                    options and develop PoV/Pitch.
+                    Identify pain points, generate ideas, source ideas and
+                    evaluate / rank ideas
                   </p>
                 </div>
               </Col>

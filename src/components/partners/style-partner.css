@@ -5,7 +5,7 @@
     background-size: contain;
     background-position-x: 12.7%;
     margin-top: 79px;
-    height: 509px;
+    height: 100vh;
 }
 
 .title-part{
@@ -32,7 +32,7 @@
 }
 
 .arr4 a{
-    top: -102px;
+    top: 19vh;
 }
 
 .st3{
