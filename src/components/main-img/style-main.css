@@ -29,16 +29,11 @@
    
 }
 .main img{
-    /* width: 71%;
+    width: 71%;
     padding-bottom: 28px;
     padding-top: 75px;
     margin-left: 15%;
-    margin-bottom: 5%; */
-    padding-bottom: 3vh;
-    padding-top: 9vh;
-    margin-left: 4.1vw;
-    margin-bottom: 5vh;
-    width: 45vh;
+    margin-bottom: 5%;
 }
 
 .name p{
@@ -173,16 +168,16 @@
     }
 
     .left .ant-btn{
-    margin-top: 7vh;
+    margin-top: 12vh;
     width: 35%;
     }
 
     .main img{
-        width: 72%;
-        margin-bottom: 4%;
-        padding-top: 17px;
-        margin-top: 55px;
-        margin-left: 14%;
+        width: 68%;
+        padding-bottom: 28px;
+        padding-top: 75px;
+        margin-left: 12%;
+        margin-bottom: 5%;
 
     /* padding-bottom: 7vh;
     padding-top: 6vh;
@@ -223,7 +218,7 @@
     }
 
     .left .ant-btn{
-    /* margin-top: 88px; */
+        margin-top: 11vh;
     width: 100%;
     }
     .left .ant-btn.scd-btn {
@@ -231,11 +226,11 @@
     }
 
     .main img{
-        padding-bottom: 2vh;
-        padding-top: 7vh;
-        margin-left: 6.1vw;
-        margin-bottom: 5vh;
-        width: 34vh;
+        padding-bottom: 1%;
+        padding-top: 11%;
+        margin-left: 12%;
+        margin-bottom: 11%;
+        width: 54%;
     }
 
     .name p{
@@ -270,7 +265,7 @@
         }
 
     .left .ant-btn{
-        /* margin-top: 62px; */
+        margin-top: 12vh;
         width: 84%;
     }
 
@@ -279,11 +274,11 @@
     }
 
     .main img{
-        padding-bottom: 4vh;
-        padding-top: 3vh;
-        margin-left: 6.1vw;
-        margin-bottom: 5vh;
-        width: 26vh;
+        padding-bottom: 12%;
+        padding-top: 13%;
+        margin-left: 11%;
+        margin-bottom: 2%;
+        width: 65%;
     }
 
     .name p{

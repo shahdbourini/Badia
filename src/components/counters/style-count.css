@@ -66,14 +66,14 @@
     width: 19px;
 }
 .arr5 a{ 
-    /* top: 43vh; */
+    top: 43vh;
     margin-left: 13.4%;
     position: relative;
 }
 
-.arr5{
+/* .arr5{
     top: 21vh;
-}
+} */
 
 .position-counter{
    padding-top: 166px;
@@ -137,7 +137,7 @@
     }
 
     .arr5 a {
-        top: -35vh;
+        top: -10vh;
         margin-left: 8%;
     }
 
