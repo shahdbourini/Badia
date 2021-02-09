@@ -53,6 +53,14 @@ function Main(props) {
           </div>
         </Col>
       </Row>
+      {/* <div className="main-arrow" style={{ cursor: `pointer` }}>
+        <Link to="about" spy={true} smooth={true}>
+          <img src={arrow} />
+        </Link>
+      </div>
+
+      <p className="about">WHO WE ARE</p>
+      <div className="under-line"></div> */}
     </div>
   );
 }
