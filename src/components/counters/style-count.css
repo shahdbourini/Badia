@@ -87,7 +87,8 @@
     margin-left: 13.4%;
     position: relative;
     width: 19px;
-    top: 90vh
+    top: 90vh;
+    cursor: pointer;
 }
 
 

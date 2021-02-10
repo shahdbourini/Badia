@@ -63,6 +63,7 @@
     bottom: 14px;
     top: 90vh;
     z-index: 50;
+    cursor: pointer;
 }
 
 .st3{

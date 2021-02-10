@@ -16,7 +16,7 @@ function Count(props) {
         </Link>
       </div> */}
 
-      <div className="arr5" style={{ cursor: `pointer` }}>
+      <div className="arr5">
         <Link to="nav" spy={true} smooth={true}>
           <img src={top} />
         </Link>

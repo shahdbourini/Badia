@@ -57,13 +57,13 @@
 
 .main-arrow {
     background-color: #94c529;
-    position: relative;
     top: 70vh;
-    width: 43px;
+    width: 50px;
     height: 122px;
     border-top-left-radius: 44px;
     border-top-right-radius: 44px;
     position: absolute;
+    left: -1%;
 }
 
 

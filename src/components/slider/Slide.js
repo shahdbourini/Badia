@@ -21,7 +21,7 @@ function Slide(props) {
   };
   return (
     <div className="back" id="slide">
-      <div className="arr2" style={{ cursor: `pointer` }}>
+      <div className="arr2">
         <Link to="partners" spy={true} smooth={true}>
           <img src={arrow} />
         </Link>

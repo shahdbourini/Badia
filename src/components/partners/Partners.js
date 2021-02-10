@@ -18,7 +18,7 @@ function Partners(props) {
         </Link>
       </div> */}
 
-      <div className="arr4" style={{ cursor: `pointer` }}>
+      <div className="arr4">
         <Link to="counters" spy={true} smooth={true}>
           <img src={arrow} />
         </Link>

@@ -60,7 +60,7 @@ function About(props) {
           </div>
         </Col>
       </Row>
-      <div className="down-arrow" style={{ cursor: `pointer` }}>
+      <div className="down-arrow">
         <Link to="slide" spy={true} smooth={true}>
           <img src={arrow} />
         </Link>
