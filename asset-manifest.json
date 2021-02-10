@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Badia/static/css/main.87fd0551.chunk.css",
-    "main.js": "/Badia/static/js/main.0a33c27c.chunk.js",
-    "main.js.map": "/Badia/static/js/main.0a33c27c.chunk.js.map",
+    "main.css": "/Badia/static/css/main.ad53def3.chunk.css",
+    "main.js": "/Badia/static/js/main.6e00f120.chunk.js",
+    "main.js.map": "/Badia/static/js/main.6e00f120.chunk.js.map",
     "runtime-main.js": "/Badia/static/js/runtime-main.828863e4.js",
     "runtime-main.js.map": "/Badia/static/js/runtime-main.828863e4.js.map",
     "static/css/2.9bc4b3c5.chunk.css": "/Badia/static/css/2.9bc4b3c5.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.cd9efe67.chunk.js.map": "/Badia/static/js/3.cd9efe67.chunk.js.map",
     "index.html": "/Badia/index.html",
     "static/css/2.9bc4b3c5.chunk.css.map": "/Badia/static/css/2.9bc4b3c5.chunk.css.map",
-    "static/css/main.87fd0551.chunk.css.map": "/Badia/static/css/main.87fd0551.chunk.css.map",
+    "static/css/main.ad53def3.chunk.css.map": "/Badia/static/css/main.ad53def3.chunk.css.map",
     "static/js/2.5558ffa3.chunk.js.LICENSE.txt": "/Badia/static/js/2.5558ffa3.chunk.js.LICENSE.txt",
     "static/media/about-line.2527fa4b.svg": "/Badia/static/media/about-line.2527fa4b.svg",
     "static/media/about1.fd4b66cc.svg": "/Badia/static/media/about1.fd4b66cc.svg",
@@ -49,7 +49,7 @@
     "static/js/runtime-main.828863e4.js",
     "static/css/2.9bc4b3c5.chunk.css",
     "static/js/2.5558ffa3.chunk.js",
-    "static/css/main.87fd0551.chunk.css",
-    "static/js/main.0a33c27c.chunk.js"
+    "static/css/main.ad53def3.chunk.css",
+    "static/js/main.6e00f120.chunk.js"
   ]
 }
