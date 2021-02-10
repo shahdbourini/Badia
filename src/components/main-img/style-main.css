@@ -257,7 +257,11 @@
     }
 
     .main-arrow {
-        top: 37vh;
+        top: 7vh;
+        height: 32hv;
+        position: relative;
+        width: 34%;
+    
     }
 
 
@@ -298,12 +302,12 @@
     } */
 
     .about {
-        top: 43vh;
+        top: 95%;
         font-size: 13px;
     }
 
     .under-line {
-        top: 46vh;
+        top: 100%;
         width: 79px;
     }
     }   

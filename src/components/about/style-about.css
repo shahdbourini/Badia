@@ -101,6 +101,7 @@ top:50px;
 @media(min-width:320px) and (max-width:575px){
     .back1{
         height: 449px;
+        margin-top: 42%;
     }
     .about-row{
         margin-top: 20px;
